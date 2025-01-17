@@ -21,6 +21,7 @@ p {
 }
 a {
   font-size: 20px;
+  color: rgb(255, 255, 255);
 }
 
 .contents p:nth-of-type(2)::first-letter {
@@ -75,6 +76,7 @@ footer {
     font-size: 25px;
   }
   #parent {
-    display: block;
+    display:flex;
+    flex-direction: column;
   }
 }
